@@ -197,7 +197,7 @@ class AlbertsonsSpider(scrapy.Spider):
                 writer.writeheader()
             writer.writerows(prod_list)
     
-    # Merging two CSVs after spyder finishes
+    # Merging two CSVs after spider finishes
     def closed(self, reason):
 
         left = pd.read_csv(AlbertsonsSpider.cat_base_file, dtype={'upc': str, 'id':str})
