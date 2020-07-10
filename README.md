@@ -1,2 +1,2 @@
 # python
-# Scrapy, pandas, Tesseract OCR
+# Scrapy, Pandas, Selenium Tesseract OCR
